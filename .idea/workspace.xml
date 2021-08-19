@@ -20,18 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bec2179-1742-4cc1-8208-2f90be752bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/altPairs/AltPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/array123/Array123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/doubleX/DoubleX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/last2/Last2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/noTriples/NoTriples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/stringTimes/StringTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/arrayCount9/ArrayCount9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/frontTimes/FrontTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/has271/Has271.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/stringBits/StringBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/stringMatch/StringMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/stringYak/StringYak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +93,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629357184147</updated>
-      <workItem from="1629357188498" duration="2397000" />
+      <workItem from="1629357188498" duration="4514000" />
     </task>
+    <task id="LOCAL-00001" summary="WarmUp-2 Fourth Day">
+      <created>1629364740198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629364740198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,22 +119,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WarmUp-2 Fourth Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="WarmUp-2 Fourth Day" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1629364675253">
+    <state width="725" height="210" key="GridCell.Tab.0.bottom" timestamp="1629379098803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629364675253" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1629364675253">
+    <state width="725" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629379098803" />
+    <state width="725" height="210" key="GridCell.Tab.0.center" timestamp="1629379098803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629364675253" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1629364675253">
+    <state width="725" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629379098803" />
+    <state width="725" height="210" key="GridCell.Tab.0.left" timestamp="1629379098803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629364675253" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1629364675253">
+    <state width="725" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629379098803" />
+    <state width="725" height="210" key="GridCell.Tab.0.right" timestamp="1629379098803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629364675253" />
+    <state width="725" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629379098803" />
+    <state x="722" y="135" key="Vcs.Push.Dialog.v2" timestamp="1629364741425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629364741425" />
   </component>
 </project>
