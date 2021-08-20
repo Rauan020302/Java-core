@@ -1,27 +1,38 @@
 package com.company;
 
+import com.company.atFirst.AtFirst;
+import com.company.comboString.ComboString;
 import com.company.conCat.ConCat;
+import com.company.deFront.DeFront;
 import com.company.endsLy.EndsLy;
 import com.company.extraEnd.ExtraEnd;
 import com.company.extraFront.ExtraFront;
 import com.company.firstHalf.FirstHalf;
+import com.company.firstTwo.FirstTwo;
 import com.company.frontAgain.FrontAgain;
 import com.company.hasBad.HasBad;
 import com.company.helloName.HelloName;
 import com.company.lastChars.LastChars;
+import com.company.lastTwo.LastTwo;
 import com.company.left2.Left2;
 import com.company.makeAbba.MakeAbba;
 import com.company.makeOutWord.MakeOutWord;
+import com.company.makeTags.MakeTags;
 import com.company.middleThree.MiddleThree;
+import com.company.middleTwo.MiddleTwo;
+import com.company.minCat.MinCat;
 import com.company.nTwice.NTwice;
 import com.company.nonStart.NonStart;
+import com.company.right2.Right2;
 import com.company.seeColor.SeeColor;
 import com.company.startWord.StartWord;
 import com.company.theEnd.TheEnd;
+import com.company.twoChar.TwoChar;
 import com.company.without2.Without2;
 import com.company.withoutEnd.WithoutEnd;
 import com.company.withoutEnd2.WithoutEnd2;
 import com.company.withoutX.WithoutX;
+import com.company.withoutX2.WithoutX2;
 
 public class Main {
 
@@ -92,6 +103,38 @@ public class Main {
         WithoutX withoutX = new WithoutX();
         System.out.println(withoutX.withoutX("xHix"));
 
+        MakeTags makeTags = new MakeTags();
+        System.out.println(makeTags.makeTags("br","Hello"));
+
+        FirstTwo firstTwo = new FirstTwo();
+        System.out.println(firstTwo.firstTwo("a"));
+
+        ComboString comboString = new ComboString();
+        System.out.println(comboString.comboString("aba","baba"));
+
+        Right2 right2 = new Right2();
+        System.out.println(right2.right2("Hello"));
+
+        MiddleTwo middleTwo = new MiddleTwo();
+        System.out.println(middleTwo.middleTwo("string"));
+
+        TwoChar twoChar = new TwoChar();
+        System.out.println(twoChar.twoChar("java",2));
+
+        AtFirst atFirst = new AtFirst();
+        System.out.println(atFirst.atFirst("Hello"));
+
+        LastTwo lastTwo = new LastTwo();
+        System.out.println(lastTwo.lastTwo("coding"));
+
+        MinCat minCat = new MinCat();
+        System.out.println(minCat.minCat("Hello","java"));
+
+        DeFront deFront = new DeFront();
+        System.out.println(deFront.deFront("Hello"));
+
+        WithoutX2 withoutX2 = new WithoutX2();
+        System.out.println(withoutX2.withoutX2("xHi"));
 
     }
 
