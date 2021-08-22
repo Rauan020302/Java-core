@@ -1,13 +1,19 @@
 package com.company;
 
+import com.company.alarmClock.AlarmClock;
+import com.company.answerCell.AnswerCell;
 import com.company.blueTicket.BlueTicket;
 import com.company.caughtSpeeding.CaughtSpeeding;
 import com.company.cigarParty.CigarParty;
 import com.company.dateFashion.DateFashion;
 import com.company.fizzString.FizzString;
+import com.company.fizzString2.FizzString2;
+import com.company.greenTicket.GreenTicket;
 import com.company.in1To10.In1To10;
 import com.company.inOrder.InOrder;
+import com.company.inOrderEqual.InOrderEqual;
 import com.company.lastDigit.LastDigit;
+import com.company.less20.Less20;
 import com.company.lessBy10.LessBy10;
 import com.company.love6.Love6;
 import com.company.maxMod5.MaxMod5;
@@ -17,9 +23,13 @@ import com.company.old35.Old35;
 import com.company.redTicket.RedTicket;
 import com.company.shareDigit.ShareDigit;
 import com.company.sortaSum.SortaSum;
+import com.company.specialEleven.SpecialEleven;
+import com.company.squirrelPlay.SquirrelPlay;
+import com.company.sumLimit.SumLimit;
 import com.company.teaParty.TeaParty;
 import com.company.teenSum.TeenSum;
 import com.company.twoAsOne.TwoAsOne;
+import com.company.withoutDoubles.WithoutDoubles;
 
 public class Main {
 
@@ -65,26 +75,54 @@ public class Main {
 //
 //        Old35 old35 = new Old35();
 //        System.out.println(old35.old35(3));
+//
+//        TeenSum teenSum = new TeenSum();
+//        System.out.println(teenSum.teenSum(3,4));
+//
+//        FizzString fizzString = new FizzString();
+//        System.out.println(fizzString.fizzString("faafa"));
+//
+//        InOrder inOrder = new InOrder();
+//        System.out.println(inOrder.inOrder(1,2,4,false));
+//
+//        LessBy10 lessBy10 = new LessBy10();
+//        System.out.println(lessBy10.lessBy10(1,7,11));
+//
+//        RedTicket redTicket = new RedTicket();
+//        System.out.println(redTicket.redTicket(2,2,2));
+//
+//        ShareDigit shareDigit = new ShareDigit();
+//        System.out.println(shareDigit.shareDigit(12,23));
 
-        TeenSum teenSum = new TeenSum();
-        System.out.println(teenSum.teenSum(3,4));
+        SquirrelPlay squirrelPlay = new SquirrelPlay();
+        System.out.println(squirrelPlay.squirrelPlay(95,true));
 
-        FizzString fizzString = new FizzString();
-        System.out.println(fizzString.fizzString("faafa"));
+        AlarmClock alarmClock = new AlarmClock();
+        System.out.println(alarmClock.alarmClock(12,true));
 
-        InOrder inOrder = new InOrder();
-        System.out.println(inOrder.inOrder(1,2,4,false));
+        SpecialEleven specialEleven = new SpecialEleven();
+        System.out.println(specialEleven.specialEleven(22));
 
-        LessBy10 lessBy10 = new LessBy10();
-        System.out.println(lessBy10.lessBy10(1,7,11));
+        Less20 less20 = new Less20();
+        System.out.println(less20.less20(18));
 
-        RedTicket redTicket = new RedTicket();
-        System.out.println(redTicket.redTicket(2,2,2));
+        AnswerCell answerCell = new AnswerCell();
+        System.out.println(answerCell.answerCell(true,true,true));
 
-        ShareDigit shareDigit = new ShareDigit();
-        System.out.println(shareDigit.shareDigit(12,23));
+        FizzString2 fizzString2 = new FizzString2();
+        System.out.println(fizzString2.fizzString2(3));
 
+        InOrderEqual inOrderEqual = new InOrderEqual();
+        System.out.println(inOrderEqual.inOrderEqual(1,1,3,true));
 
+        WithoutDoubles withoutDoubles = new WithoutDoubles();
+        System.out.println(withoutDoubles.withoutDoubles(1,1,true));
+
+        GreenTicket greenTicket = new GreenTicket();
+        System.out.println(greenTicket.greenTicket(1,2,3));
+
+        SumLimit sumLimit = new SumLimit();
+        System.out.println(sumLimit.sumLimit(1,3));
 
 
     }
