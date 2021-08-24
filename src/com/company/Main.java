@@ -2,14 +2,20 @@ package com.company;
 
 import com.company.bigDiff.BigDiff;
 import com.company.countEvens.CountEvens;
+import com.company.either24.Either24;
+import com.company.evenOdd.EvenOdd;
 import com.company.fizzArray.FizzArray;
+import com.company.fizzArray2.FizzArray2;
+import com.company.fizzArray3.FizzArray3;
 import com.company.fizzBuzz.FizzBuzz;
+import com.company.has22.Has22;
 import com.company.has77.Has77;
 import com.company.haveThree.HaveThree;
 import com.company.isEveryWhere.IsEveryWhere;
 import com.company.lucky13.Lucky13;
 import com.company.matchUp.MatchUp;
 import com.company.modThree.ModThree;
+import com.company.more14.More14;
 import com.company.no14.No14;
 import com.company.notAlone.NotAlone;
 import com.company.only14.Only14;
@@ -95,9 +101,31 @@ public class Main {
         NotAlone notAlone = new NotAlone();
         System.out.println(Arrays.toString(notAlone.notAlone(only, 4)));
 
-        int[] zero = {1,2,3,0,1,0,2,0,3};
+        int[] zero = {1,2,3,2,3,2,3};
         ZeroMax zeroMax = new ZeroMax();
         System.out.println(Arrays.toString(zeroMax.zeroMax(zero)));
+
+        Has22 has22 = new Has22();
+        System.out.println(has22.has22(zero));
+
+        int[] more = {1,3,1,4,4,4,45,1};
+        More14 more14 = new More14();
+        System.out.println(more14.more14(more));
+
+        FizzArray2 fizzArray2 = new FizzArray2();
+        System.out.println(Arrays.toString(fizzArray2.fizzArray2(4)));
+
+        int[] either = {1,2,2,3,4,4};
+        Either24 either24 = new Either24();
+        System.out.println(either24.either24(either));
+
+        FizzArray3 fizzArray3 = new FizzArray3();
+        System.out.println(Arrays.toString(fizzArray3.fizzArray3(10, 15)));
+
+        int[] even = {1,6,7,5,4,8,9,3,2};
+        EvenOdd evenOdd = new EvenOdd();
+        System.out.println(Arrays.toString(evenOdd.evenOdd(even)));
+
     }
 
 }
