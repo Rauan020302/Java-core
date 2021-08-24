@@ -1,24 +1,34 @@
 package com.company;
 
+import com.company.bigDiff.BigDiff;
 import com.company.countEvens.CountEvens;
 import com.company.fizzArray.FizzArray;
 import com.company.fizzBuzz.FizzBuzz;
+import com.company.has77.Has77;
+import com.company.haveThree.HaveThree;
+import com.company.isEveryWhere.IsEveryWhere;
 import com.company.lucky13.Lucky13;
 import com.company.matchUp.MatchUp;
 import com.company.modThree.ModThree;
 import com.company.no14.No14;
+import com.company.notAlone.NotAlone;
+import com.company.only14.Only14;
 import com.company.post4.Post4;
 import com.company.shiftLeft.ShiftLeft;
 import com.company.sum13.Sum13;
+import com.company.sum28.Sum28;
+import com.company.sum67.Sum67;
+import com.company.tenRun.TenRun;
+import com.company.tripleUp.TripleUp;
 import com.company.withoutTen.WithoutTen;
+import com.company.zeroMax.ZeroMax;
 
-import java.io.FileInputStream;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] num = {2,5,10,7,10,9};
+        int[] num = {2,2,3,2,2,3,4,5};
         CountEvens countEvens = new CountEvens();
         System.out.println(countEvens.countEvens(num));
 
@@ -54,7 +64,40 @@ public class Main {
         FizzBuzz fizzBuzz = new FizzBuzz();
         System.out.println(Arrays.toString(fizzBuzz.fizzBuzz(1, 8)));
 
+        BigDiff bigDiff = new BigDiff();
+        System.out.println(bigDiff.bigDiff(num));
 
+        Sum67 sum67 = new Sum67();
+        System.out.println(sum67.sum67(num));
+
+        Sum28 sum28 = new Sum28();
+        System.out.println(sum28.sum28(num));
+
+        int[] only = {1,5,10,7,2,2,3,4};
+        Only14 only14 = new Only14();
+        System.out.println(only14.only14(only));
+
+        IsEveryWhere isEveryWhere = new IsEveryWhere();
+        System.out.println(isEveryWhere.isEverywhere(only,1));
+
+        Has77 has77 = new Has77();
+        System.out.println(has77.has77(only));
+
+        HaveThree haveThree = new HaveThree();
+        System.out.println(haveThree.haveThree(only));
+
+        TripleUp tripleUp = new TripleUp();
+        System.out.println(tripleUp.tripleUp(only));
+
+        TenRun tenRun = new TenRun();
+        System.out.println(Arrays.toString(tenRun.tenRun(only)));
+
+        NotAlone notAlone = new NotAlone();
+        System.out.println(Arrays.toString(notAlone.notAlone(only, 4)));
+
+        int[] zero = {1,2,3,0,1,0,2,0,3};
+        ZeroMax zeroMax = new ZeroMax();
+        System.out.println(Arrays.toString(zeroMax.zeroMax(zero)));
     }
 
 }
