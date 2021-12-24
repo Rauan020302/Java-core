@@ -4,16 +4,29 @@ import java.util.Arrays;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fibNaive(5));
-        System.out.println(fibNaive(7));
-        System.out.println(fibNaive(20));
+        int n = 100;
+        long[] mem = new long[n+1];
+        Arrays.fill(mem, -1);
+
+        System.out.println(fibNaive(n,mem));
 
         fibEffective(10);
+
+
+
     }
-    private static long fibNaive(int n) {
+
+
+    private static long fibNaive(int n, long[] mem) {
+        if (mem[n] != -1)
+            return mem[n];
+
         if(n <= 1)
             return n;
-        return fibNaive(n-1) + fibNaive(n-2);
+        long result = fibNaive(n-1,mem) + fibNaive(n-2, mem);
+        mem[n] = result;
+
+        return result;
     }
 
     private static void fibEffective(int n) {
