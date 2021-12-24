@@ -17,5 +17,7 @@ public class Main {
         System.out.println();
         insertSort.sort(arr);
 
+
+        System.out.println();
     }
 }
