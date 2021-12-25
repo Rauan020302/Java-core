@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Mult1;
 
 public class MyRunnable implements Runnable{
     @Override

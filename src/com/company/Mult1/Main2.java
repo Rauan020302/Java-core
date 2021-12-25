@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Mult1;
 
 public class Main2 {
     public static void main(String[] args) throws InterruptedException {
