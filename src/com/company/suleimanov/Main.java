@@ -1,8 +1,8 @@
-package com.company;
+package com.company.suleimanov;
 
-import com.company.model.Specialist;
-import com.company.model.Specialty;
-import com.company.util.StreamApiUtil;
+import com.company.suleimanov.model.Specialist;
+import com.company.suleimanov.model.Specialty;
+import com.company.suleimanov.util.StreamApiUtil;
 
 import java.math.BigDecimal;
 import java.util.List;

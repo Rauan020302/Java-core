@@ -20,17 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e09d6e98-68ce-4218-875d-bd377de6dec5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/Specialist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/Specialty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/util/OldApproachUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/util/StreamApiUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/letscode/LetsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/letscode/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/letscode/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/letscode/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/letscode/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/suleimanov/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Specialist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/suleimanov/model/Specialist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/suleimanov/model/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/util/OldApproachUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/suleimanov/util/OldApproachUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/util/StreamApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/suleimanov/util/StreamApiUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.suleimanov.model.Main" />
       <module name="Java-core" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -86,8 +92,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643279249174</updated>
-      <workItem from="1643279258816" duration="632000" />
+      <workItem from="1643279258816" duration="3718000" />
     </task>
+    <task id="LOCAL-00001" summary="Suleimanov StreamApi lesson">
+      <created>1643280292358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643280292358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +117,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Suleimanov StreamApi lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suleimanov StreamApi lesson" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1643283603437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1643283603437" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1643280298257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643280298257" />
   </component>
 </project>

@@ -1,7 +1,7 @@
-package com.company.util;
+package com.company.suleimanov.util;
 
-import com.company.model.Specialist;
-import com.company.model.Specialty;
+import com.company.suleimanov.model.Specialist;
+import com.company.suleimanov.model.Specialty;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

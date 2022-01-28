@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.suleimanov.model;
 
 import java.math.BigDecimal;
 
